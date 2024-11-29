@@ -1,0 +1,150 @@
+body{
+    color: #393d41  ;
+    font-size: 2.3rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    text-align: center;
+}
+header {
+    padding: 2em 0;
+    background-color: black;
+}
+
+h1, h2, h3, h4 {
+    color: #25a2c3  ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+nav {
+    margin-bottom: 2em;
+    padding: 2.5em 2em;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+nav h1 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+nav button {
+    margin-top: 2em;
+    padding: 1em 2em;
+    color: white;
+    background-color: #f04c2f ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: NONE;
+    border-radius: 0.4em ;
+}
+
+.blocchi-testo {
+    padding: 0 2em;
+}
+
+.blocchi-testo h3 {
+    padding-top: 1em;
+}
+
+.blocchi-testo p {
+    padding: 1em 0;
+}
+
+#box{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-image: url(../images/notebook.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#testimonianze {
+    padding: 3em 2em;
+    margin: 2em 0;
+    color: white;
+    background-color: #e22d0e;
+    
+}
+
+#testimonianze h2 {
+    color: white;
+    font-size: 1.8em;
+    padding-bottom: 0.5em;
+}
+
+#testimonianze p {
+    font-style: italic;
+    padding: 0.5em;
+}
+
+#testimonianze .nome {
+    font-size: 1.2em;
+    font-style: normal;
+    padding-bottom: 0;
+}
+
+#testimonianze .posizione {
+    padding: 0;
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+section { 
+    padding: 1.5em 2em;
+    }
+
+    section div h4 {
+        padding-bottom: 1em ;
+    }
+
+    section div img {
+        padding-bottom: 1em;
+        width: 100%;
+        height: auto;
+  
+    }
+
+    section div {
+
+        padding-bottom: 1.5em;
+        border: 1px solid #dee1e3;
+    }
+
+    section div p {
+        padding: 0 1.5em;
+    }
+
+footer {
+    margin-top: 3em;
+    padding: 3em 2em;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+
+footer h2  {
+    font-size: 1.8em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+a {
+    color: #c8e7f0; 
+    line-height: 1em;
+}
+
+footer p  {
+    font-size: 0.8em;
+    margin-top: 1.5em;
+}
+
+a.linkvia {
+    text-decoration: none;
+}
+
+footer hr {
+    margin: 1em;
+}
